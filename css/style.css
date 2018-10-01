@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+.signIn{
+    color:white;
+    background:#26a69a;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.05);
+    display: none;
+    position: relative;
+}
+.container{
+    margin: 30px auto;
+    background: #eceef1;
+    width: 600px;
+    height: auto;
+    position: absolute;    
+    text-align: center;
+    top: 80px;
+    right: 400px;
+}
+.mainBody{
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+h1{
+    text-align:center;
+    color: green;
+}
+.loginform{
+    width:100%;
+    height: auto;   
+}
+.mainInput{
+
+}
+input[type=text]{  
+    width: 100%;
+    height: 30px;
+    background: #dde3ec;
+    outline: 0px;
+    border: 0px;
+    padding:0px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.leftSide{
+    float: left;
+}
+.rightSide{
+    float: right;
+}
+.btnSubmit{
+    color:white;
+    background:#26a69a;
+    /*text-align: center;*/
+    padding:6px 12px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition-duration: 0.5sec;
+}
+.btnSubmit:hover{
+    background:#18736a ;
+    transition-duration: 0.5sec;
+}
+.social{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.loginLabel{
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+.socialIcons{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+a.socialLink{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height:40px;
+    display: inline-block;
+    color:white;
+}
+a.fb{
+    background:  #7a94b6;
+}
+a.gplus{
+    background: #e07b6f;
+}
+a.twitter{
+    background: #70ceee;
+}
+.clear{
+    clear:both;
+}
+.footer{
+     background: #6c7a8d;
+     height: 80px;
+     text-align: center;
+     border-bottom-left-radius: 8px;
+     border-bottom-right-radius:8px;
+     line-height: 80px;
+     color: #a7c0da;
+}
+.footer a{
+    text-decoration: none;
+    color: #a7c0da;
+    text-transform: uppercase;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+

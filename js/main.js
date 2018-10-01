@@ -1,0 +1,10 @@
+$(document).ready(function(){
+$(".signIn").click(function(){
+ $(this).hide();
+ $(".shadow").fadeIn(400); 
+});
+$(".btnSubmit").click(function(){
+   $(".shadow").hide(); 
+    $(".signIn").show();
+});    
+});
