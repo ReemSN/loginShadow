@@ -3,10 +3,12 @@ body{
 }
 .signIn{
     color:white;
+    font-size: 30px;
     background:#26a69a;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%
+    margin: 30% 50%;
+    width: 200px;
+    height: 40px;
 }
 .shadow{
     width: 100%;
